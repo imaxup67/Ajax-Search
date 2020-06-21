@@ -1,0 +1,64 @@
+
+
+/* */
+
+
+table {
+  border-collapse: collapse;
+  font-family: Calibri;
+  cursor:pointer;
+}
+
+
+td:nth-child(2), th:nth-child(2) {
+  width: 355px;
+  max-width: 355px;
+  white-space:nowrap;
+  overflow: hidden;
+}
+
+
+table, th, td, input {
+  border: 1px solid RGB(224,224,224);
+}
+
+
+td {padding: 0px 4px 0px 4px;
+    height: 20px;
+}
+
+  
+.d1 {display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+
+label{
+  font-family: Calibri;
+}
+
+
+input {
+  margin: 0px 5px;
+}
+
+
+button{
+  background-color: rgb(0, 113, 193);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  cursor:pointer;
+}
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: large;
+  margin: 30px 0px;
+}
